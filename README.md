@@ -12,7 +12,7 @@ npm install
 
 #### Start
 ```sh
-npm start
+./start.sh
 ```
 
 ## Avaliable Users:
