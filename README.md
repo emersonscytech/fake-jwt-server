@@ -19,8 +19,5 @@ npm start
 
 | User     | Password  |
 | :--------|:----------|
-| admin    | 123       |
-| bruno    | 123       |
-| emerson  | 123       |
-| jean     | 123       |
-| nelso    | 123       |
+| admin    | 312       |
+| tester   | 123       |
