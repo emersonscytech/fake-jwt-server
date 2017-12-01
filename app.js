@@ -23,28 +23,7 @@ const jwtMW = exjwt({
     secret: JWT_SECRET
 });
 
-const USERS = [{
-        id: 1,
-        username: "admin",
-        password: "123"
-    }, {
-        id: 2,
-        username: "bruno",
-        password: "123"
-    }, {
-        id: 3,
-        username: "emerson",
-        password: "123"
-    }, {
-        id: 4,
-        username: "jean",
-        password: "123"
-    }, {
-        id: 5,
-        username: "nelso",
-        password: "123"
-    }
-];
+const USERS = require("./users");
 
 const findUser = (username, password) => {
     const candidates = USERS.filter((usr) => {
