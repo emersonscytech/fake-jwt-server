@@ -3,8 +3,12 @@
   "version": "0.0.4",
   "main": "app.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emersonscytech/fake-jwt-server.git"
+  },
   "scripts": {
-    "start": "node app.js"
+    "start": "./start.sh"
   },
   "dependencies": {
     "body-parser": "^1.17.1",
