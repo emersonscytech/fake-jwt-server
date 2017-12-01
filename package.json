@@ -8,7 +8,7 @@
     "url": "git+https://github.com/emersonscytech/fake-jwt-server.git"
   },
   "scripts": {
-    "start": "./start.sh"
+    "start": "node app.js"
   },
   "dependencies": {
     "body-parser": "^1.17.1",
