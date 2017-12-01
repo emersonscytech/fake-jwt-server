@@ -17,7 +17,7 @@ npm install
 
 ## Avaliable Users:
 
-| User     | Password  |
-| :--------|:----------|
-| admin    | 312       |
-| tester   | 123       |
+| User     | Password   |
+| :--------|:-----------|
+| admin    | 1234       |
+| tester   | 123        |
